@@ -15,6 +15,6 @@ codex-demo.probaland.ru {
 	respond @health 200
 
 	# Path to sit folder
-	root * /var/www/codex-test/
+	root * /var/www/codex/
 	file_server
 }

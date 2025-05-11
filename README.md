@@ -2,6 +2,13 @@
 
 This test project created with Node v22.15.0
 
+How to run:
+
+- Install NPM 22.15.0 or higer
+- Run `npm install` in project dir (where this README located)
+- For Development run `npm run dev`
+- For Production run `npm run build` and copy all files from /dist folder to your /site folder, setup reverse proxy and enjoy
+
 # Astro Starter Kit: Basics
 
 ```sh

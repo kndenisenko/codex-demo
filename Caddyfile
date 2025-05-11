@@ -1,0 +1,20 @@
+#Prod File
+
+probaland.ru {
+	log {
+		format json
+	}
+
+	# Compression
+	encode zstd gzip
+
+	# Service health check
+	@health {
+		path /health
+	}
+	respond @health 200
+
+	# Path to sit folder
+	root * /var/www/codex-test/
+	file_server
+}

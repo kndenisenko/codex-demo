@@ -1,6 +1,6 @@
 #Prod File
 
-probaland.ru {
+codex-test.probaland.ru {
 	log {
 		format json
 	}

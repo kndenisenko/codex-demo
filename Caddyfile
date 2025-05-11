@@ -14,6 +14,9 @@ codex-demo.probaland.ru {
 	}
 	respond @health 200
 
+	# cache site for 1 hour
+	header Cache-Control max-age=3600
+
 	# Path to sit folder
 	root * /var/www/codex/
 	file_server

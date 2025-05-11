@@ -1,6 +1,6 @@
 # codex-demon
 
-
+This test project created with Node v22.15.0
 
 # Astro Starter Kit: Basics
 

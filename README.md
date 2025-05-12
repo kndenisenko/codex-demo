@@ -1,4 +1,4 @@
-# codex-demon
+# codex-demo
 
 This test project created with Node v22.15.0
 
